@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Main Menu
+  m_text: Super Epic Zoo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 558cb08bde616a74a910188ceead5958, type: 2}
   m_sharedMaterial: {fileID: -1205167138597643699, guid: 558cb08bde616a74a910188ceead5958, type: 2}
