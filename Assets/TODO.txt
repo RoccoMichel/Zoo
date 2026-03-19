@@ -1,4 +1,9 @@
-DEADLINE: --/--/----
+DEADLINE: 30/03/2026
 ______________________
-* This is a to-do list
-* Very advanced
+* Make animal areas
+* Feeding system
+* Behavior system:
+	* Fish
+	* Gorilla
+	* Horse
+* Decorate Zoo a little
