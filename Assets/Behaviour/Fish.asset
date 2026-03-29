@@ -21,26 +21,7 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 7535787011602645273
-      type: {class: BehaviorGraphModule, ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        AuthoringAssetID:
-          m_Value0: 11861229404214737070
-          m_Value1: 10263238116825806856
-        m_DebugInfo: {fileID: -1073698203020069220}
-        BlackboardReference:
-          rid: 7535787011602645274
-        BlackboardGroupReferences: []
-        Root:
-          rid: 7535787011602645275
-        m_VersionTimestamp: 639093519617070565
-    - rid: 7535787011602645274
-      type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        m_Blackboard:
-          rid: 7535787011602645276
-        m_Source: {fileID: 5339797150757014899}
-    - rid: 7535787011602645275
+    - rid: 5977281067409735701
       type: {class: Start, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         ID:
@@ -54,12 +35,7 @@ MonoBehaviour:
           rid: -2
         Repeat: 1
         AllowMultipleRepeatsPerTick: 0
-    - rid: 7535787011602645276
-      type: {class: Blackboard, ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        m_Variables:
-        - rid: 7535787011602645277
-    - rid: 7535787011602645277
+    - rid: 5977281067409735702
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -67,6 +43,30 @@ MonoBehaviour:
           m_Value1: 0
         Name: Self
         m_Value: {fileID: 0}
+    - rid: 7535787011602645273
+      type: {class: BehaviorGraphModule, ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        AuthoringAssetID:
+          m_Value0: 11861229404214737070
+          m_Value1: 10263238116825806856
+        m_DebugInfo: {fileID: -1073698203020069220}
+        BlackboardReference:
+          rid: 7535787011602645274
+        BlackboardGroupReferences: []
+        Root:
+          rid: 5977281067409735701
+        m_VersionTimestamp: 639097742179764231
+    - rid: 7535787011602645274
+      type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        m_Blackboard:
+          rid: 7535787011602645276
+        m_Source: {fileID: 5339797150757014899}
+    - rid: 7535787011602645276
+      type: {class: Blackboard, ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        m_Variables:
+        - rid: 5977281067409735702
 --- !u!114 &-1073698203020069220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Description: 
   m_Nodes:
   - rid: 7535787011602645278
-  m_VersionTimestamp: 639093519617070565
+  m_VersionTimestamp: 639097742179764231
   m_SerializedVersion: 2
   m_DebugInfo: {fileID: -1073698203020069220}
   m_RuntimeGraph: {fileID: -1823665473553878914}
@@ -170,8 +170,8 @@ MonoBehaviour:
   m_Name: Fish Blackboard
   m_EditorClassIdentifier: 
   AssetID:
-    m_Value0: 0
-    m_Value1: 0
+    m_Value0: 11861229404214737070
+    m_Value1: 10263238116825806856
   m_Variables:
   - rid: 7535787011602645280
   m_VersionTimestamp: 639093519617055517
