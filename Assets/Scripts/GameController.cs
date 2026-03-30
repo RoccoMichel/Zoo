@@ -36,6 +36,10 @@ public class GameController : MonoBehaviour
         // Buttons
         if (GUI.Button(new Rect(10, 70, 100, 20), "Reload")) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         if (GUI.Button(new Rect(10, 100, 100, 20), "Exit")) Application.Quit();
+
+        // Sliders
+        GUI.Label(new Rect(10, 130, 100, 20), $"Time Scale: {Time.timeScale}x");
+        Time.timeScale = GUI.HorizontalSlider(new Rect(10, 160, 150, 40), Time.timeScale, 0.2f, 5);
     }
 
     private void Reset()
