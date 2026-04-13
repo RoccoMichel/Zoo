@@ -22,6 +22,7 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
+        Application.targetFrameRate = 60;
         if (debugAction.WasPressedThisFrame()) debug = !debug;
     }
 
